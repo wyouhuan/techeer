@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main() {
+  int a,b,x,y,z;
+  cout<<"Please input two nums(a>b>0):"<<endl;
+  cout<<"a="<<endl;
+  cin>>a ;
+  cout<<endl;
+  cout<<"b="<<endl;
+  x=2*a*b;
+  y=a*a-b*b;
+  z=a*a+b*b;
+  cout<<x<<","<<y<<","<<z<<"."<<endl;
+}
+  
