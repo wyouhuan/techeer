@@ -7,6 +7,7 @@ int main() {
   cin>>a ;
   cout<<endl;
   cout<<"b="<<endl;
+  cin>>b ;
   x=2*a*b;
   y=a*a-b*b;
   z=a*a+b*b;
