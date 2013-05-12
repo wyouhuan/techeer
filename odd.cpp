@@ -2,19 +2,18 @@
 #include<cmath>
 using namespace std;
 int main(){
-  int a,b,c,i;
+  int a,b,c,i=1;
   float l;
   cout<<"Please input a num:"<<endl;
   cin>>a;
   l=sqrt(a);
   b=floor(l);
-  for(i=2;i<=b;i++){
-      c=i%a;
-      if(c==0)
-      break;
-}
-if(i>=b)
-cout<<a<<"is odd"<<endl;
+  do{
+  i=i+1;
+  c=a%i;}
+while(c!=0);
+if(i>b && b*b!=a)
+cout<<a<<" is odd"<<endl;
 else
-cout<<a<<"is even"<<endl;
+cout<<a<<" is even"<<endl;
 }
